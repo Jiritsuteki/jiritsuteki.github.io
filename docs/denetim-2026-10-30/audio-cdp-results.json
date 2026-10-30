@@ -1,0 +1,26 @@
+{
+	"before": {
+		"ready": "true",
+		"permission": "blocked",
+		"muted": "false",
+		"error": "NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD",
+		"hasBeenActive": false,
+		"button": "Enable sound"
+	},
+	"afterHover": {
+		"ready": "true",
+		"permission": "blocked",
+		"muted": "false",
+		"error": "NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD",
+		"hasBeenActive": false,
+		"button": "Enable sound"
+	},
+	"afterFirstClick": {
+		"ready": "true",
+		"permission": "allowed",
+		"muted": "false",
+		"error": "NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD",
+		"hasBeenActive": true,
+		"button": "Mute sound"
+	}
+}

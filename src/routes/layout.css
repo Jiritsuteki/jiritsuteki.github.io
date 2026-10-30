@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@theme inline {
+	--font-sans: 'DM Sans', sans-serif;
+	--font-mono: 'DM Mono', monospace;
+}
+
+html {
+	@apply select-text;
+	scroll-behavior: smooth;
+}
+::selection {
+	@apply bg-white/25;
+}
+body {
+	@apply bg-black text-white;
+}
+
+.portfolio-background {
+	background-image:
+		linear-gradient(to bottom, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.64) 50%, #000 97%),
+		var(--portfolio-wallpaper);
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
