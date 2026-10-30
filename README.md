@@ -1,8 +1,5 @@
 # Ozerk — Personal Portfolio
 
-Current source audit and verification: [docs/KAYNAK_DENETIMI.md](docs/KAYNAK_DENETIMI.md).
-The earlier [V3 delivery notes](V3_UYGULAMA_NOTLARI.md) describe the original V3 handoff, before subsequent fixes.
-
 A customized portfolio built with SvelteKit, Tailwind CSS and Svelte Motion, adapted from an existing portfolio. Ozerk does not grant a project-wide MIT license. Inherited code and third-party assets retain their respective licenses; see [source notices](docs/licenses/README.md).
 
 ## Run locally

@@ -1,13 +1,12 @@
 # Denetlenen dosyalar
 
-30 Ekim 2026. Kaynak, test ve yapılandırmalar metin/kullanım denetimiyle; medya görsel/metaveri ve hash kontrolüyle incelendi. Üretilen build ayrıca kontrol edildi. Paket ağacı için KAYNAK_DENETIMI.md içindeki kapsam sınırları geçerlidir.
+30 Ekim 2026. Kaynak, test ve yapılandırmalar metin/kullanım denetimiyle; medya görsel/metaveri ve hash kontrolüyle incelendi. Üretilen build ayrıca kontrol edildi.
 
 - `.github/workflows/deploy.yml`
 - `.gitignore`
 - `.nojekyll`
 - `BASLAT.bat`
 - `docs/DENETIM_ENVANTERI.md`
-- `docs/KAYNAK_DENETIMI.md`
 - `docs/licenses/animateicons-LICENSE.txt`
 - `docs/licenses/dm-mono-OFL.txt`
 - `docs/licenses/dm-sans-OFL.txt`
@@ -38,7 +37,6 @@
 - `package.json`
 - `playwright.config.ts`
 - `prettier.config.js`
-- `PROJECTS_NOTLARI.md`
 - `README.md`
 - `src/app.d.ts`
 - `src/app.html`
@@ -84,5 +82,4 @@
 - `tests/renderer.spec.ts`
 - `tests/static-smoke.mjs`
 - `tsconfig.json`
-- `V3_UYGULAMA_NOTLARI.md`
 - `vite.config.ts`
